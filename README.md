@@ -1,6 +1,6 @@
 # README & ABOUT
 
-[![time tracker](https://wakatime.com/badge/github/Yoshino-s/blog.svg)](https://wakatime.com/badge/github/Yoshino-s/blog)
+Front [![time tracker](https://wakatime.com/badge/github/Yoshino-s/blog.svg)](https://wakatime.com/badge/github/Yoshino-s/blog) Back [![time tracker](https://wakatime.com/badge/github/Yoshino-s/blog-back.svg)](https://wakatime.com/badge/github/Yoshino-s/blog-back)
 
 这其实是一个野心勃勃的计划，大概从2019年就动手了。本来是准备用Vuepress做的，但是后来觉得不如自己写个后端，做个SPA。  
 可惜当时还不会后端，虽然现在也不会。

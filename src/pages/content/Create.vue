@@ -49,6 +49,7 @@
 <script lang="ts">
 import {Component, Vue} from 'vue-property-decorator';
 import { UnresolvedImages, parseMarkdown } from '../../utils/markdown';
+import img404 from '../../assets/img404.png';
 
 @Component
 export default class QuestionCreate extends Vue {
@@ -57,6 +58,16 @@ export default class QuestionCreate extends Vue {
   loading = false;
   imgs: UnresolvedImages = {};
   uploadUnresolvedFiles: Record<string, File|null> = {};
+
+  mounted() {
+    window.addEventListener('error', e => {
+      const ele = e.target as HTMLImageElement;
+      if(!ele || ele.tagName.toUpperCase() !== 'TAG') {
+        return;
+      }
+      ele.src = img404;
+    })
+  }
   
   change(f: File) {
     this.result = '';
