@@ -1,0 +1,1 @@
+export type Depromisify<T extends Promise<any>> = T extends Promise<infer R> ? R : any;

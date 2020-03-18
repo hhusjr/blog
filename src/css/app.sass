@@ -1,0 +1,14 @@
+a
+  &:not(.no-color)
+    color: $primary
+  color: initial
+  text-decoration: none
+  transition: color linear .1s
+  &:hover
+    transition: color linear .3s
+    color: $accent
+
+html, body, *
+  transition: background-color .3s
+html, body
+  scroll-behavior: smooth

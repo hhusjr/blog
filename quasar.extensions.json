@@ -1,0 +1,12 @@
+{
+  "@quasar/typescript": {
+    "webpack": "plugin",
+    "rename": true,
+    "vscode": true,
+    "prettier": true
+  },
+  "@quasar/qmarkdown": {
+    "import_md": true,
+    "import_vmd": true
+  }
+}

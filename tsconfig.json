@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "sourceMap": true,
+    "target": "es6",
+    "strict": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "types": [
+      "quasar", "node"
+    ],
+    "paths": {
+      "@assets/*": ["src/assets/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
